@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>com.test</groupId>
 	<artifactId>mypetV01</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>mypetV01</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -45,6 +45,6 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/mohamedsayed1994/mypetV01.git</developerConnection>
-	  <tag>mypetV01-0.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 </project>
