@@ -2,9 +2,11 @@ package com.test.services.map;
 
 import com.test.model.Owner;
 import com.test.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Owner findById(Long id) {
