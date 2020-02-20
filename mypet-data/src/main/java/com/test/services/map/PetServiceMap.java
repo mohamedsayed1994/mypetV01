@@ -1,11 +1,11 @@
 package com.test.services.map;
 
 import com.test.model.Pet;
-import com.test.services.CrudeService;
+import com.test.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudeService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Pet findById(Long id) {
         return super.findByID(id);

@@ -1,11 +1,11 @@
 package com.test.services.map;
 
 import com.test.model.Vet;
-import com.test.services.CrudeService;
+import com.test.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudeService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Vet findById(Long id) {
         return super.findByID(id);
