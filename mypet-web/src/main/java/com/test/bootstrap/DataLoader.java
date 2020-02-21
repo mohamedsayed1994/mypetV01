@@ -25,10 +25,10 @@ public class DataLoader implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        int count = petTypeService.findAll().size();
-        if (count == 0) {
+//        int count = petTypeService.findAll().size();
+  //      if (count == 0) {
             loadData();
-        }
+    //    }
     }
 
     private void loadData() {
