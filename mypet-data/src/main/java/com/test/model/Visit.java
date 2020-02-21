@@ -1,7 +1,7 @@
 package com.test.model;
 
 import java.time.LocalDate;
-
+//test
 public class Visit extends BaseEntity {
     private LocalDate date;
     private String description;
